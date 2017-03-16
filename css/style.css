@@ -141,6 +141,7 @@ p {
 	display: block;
 	margin: auto;
 	padding-bottom: 50px;
+	height: 200px;
 }
 #services-wrapper .col-sm-3 h3,
 #services-wrapper .col-sm-3 p {
@@ -148,10 +149,6 @@ p {
 }
 #services-wrapper .col-sm-3 p {
 	padding-bottom: 120px;
-}
-#services-wrapper .even h3 {
-	position: relative;
-	bottom: 10px;
 }
 /* Team */
 #team-wrapper {
