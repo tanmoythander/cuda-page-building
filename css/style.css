@@ -83,15 +83,18 @@ p {
 	padding-bottom: 60px;
 }
 
-#header-wrapper .btn-warning {
+#header-wrapper .btn {
 	display: block;
 	margin: auto;
 	text-transform: uppercase;
 	font-family: "Titillium Web SemiBold";
 	font-size: 18px;
 	padding: 27px 80px;
+	background-color: #eb7d4b;
+	color: white;
 }
-#header-wrapper .btn-warning:hover {
+#header-wrapper .btn:hover {
+	background-color: #dc7547;
 	box-shadow: inset 0px -5px 0px #c86a40;
 }
 #header-wrapper .navbar {
@@ -156,37 +159,38 @@ p {
 	background: #e7f1f8;
 	color: #3c4761;
 }
-#team-wrapper .blue {
-	color: #39b4e8;
-	padding-bottom: 20px;
-}
 #team-wrapper h2 {
-	padding-top: 110px;
 	text-align: center;
+	padding-top: 100px;
 }
 #team-wrapper hr + p {
 	text-align: center;
 	padding-bottom: 70px;
 }
-#team-wrapper .col-sm-3 {
-	padding-bottom: 120px;
-}
-#team-wrapper .col-sm-3 img {
-	padding-bottom: 30px;
+#team-wrapper .col-sm-3 > img {
 	display: block;
 	margin: auto;
+	border-radius: 100%;
 }
 #team-wrapper .col-sm-3 h3,
 #team-wrapper .col-sm-3 p {
 	text-align: center;
 }
-#team-wrapper .description {
+#team-wrapper .col-sm-3 h3 + p {
+	color: #39b4e8;
 	padding-bottom: 20px;
 }
-#team-wrapper .col-xs-4 img,
-#team-wrapper .col-xs-3 img {
-	display: block;
-	margin: auto;
+#team-wrapper .col-sm-3 h3 + p + p {
+	padding-bottom: 20px;
+}
+#team-wrapper .col-sm-3 .contact-icon {
+	text-align: center;
+}
+#team-wrapper .col-sm-3 .contact-icon img {
+	padding: 0px 5px;
+}
+#team-wrapper .col-sm-3 {
+	padding-bottom: 120px;
 }
 /* Skills */
 #skills-wrapper {
@@ -233,6 +237,7 @@ p {
 	font-size: 18px;
 	text-transform: uppercase;
 	background-color: #ebc985;
+	margin: 0px 3px;
 }
 #portfolio-wrapper .portfolio-button button:hover {
 	background-color: white;
@@ -254,6 +259,7 @@ p {
 	background-color: #17c2a4;
 	color: white;
 	margin-bottom: 100px;
+	margin-top: 60px;
 }
 #portfolio-wrapper .row + button:hover {
 	background-color: #16b79b;
