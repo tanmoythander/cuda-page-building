@@ -109,4 +109,120 @@ p {
 }
 #header-wrapper .navbar-toggle {
 	padding-top: 22px;
+}/*
+
+#footer-wrapper ul {
+	margin: 0 auto;
+	display: table;
+}*/
+
+/* Services */
+#services-wrapper {
+	background: #00cc99;
+	color: white;
+}
+#services-wrapper h2 {
+	text-align: center;
+	padding-top: 100px;
+}
+#services-wrapper hr {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  width: 87px;
+  height: 4px;
+  z-index: 298;
+}
+#services-wrapper hr + p {
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 80px;
+}
+#services-wrapper .col-sm-3 img {
+	display: block;
+	margin: auto;
+	padding-bottom: 50px;
+	height: 200px;
+}
+#services-wrapper .col-sm-3 h3,
+#services-wrapper .col-sm-3 p {
+	text-align: center;
+}
+#services-wrapper .col-sm-3 p {
+	padding-bottom: 120px;
+}
+/* Team */
+#team-wrapper {
+	background: #e7f1f8;
+	color: #3c4761;
+}
+#team-wrapper .blue {
+	color: #39b4e8;
+	padding-bottom: 20px;
+}
+#team-wrapper h2 {
+	padding-top: 110px;
+	text-align: center;
+}
+#team-wrapper hr {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  width: 87px;
+  height: 4px;
+  z-index: 298;
+}
+#team-wrapper hr + p {
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 70px;
+}
+#team-wrapper .col-sm-3 {
+	padding-bottom: 120px;
+}
+#team-wrapper .col-sm-3 img {
+	padding-bottom: 30px;
+	display: block;
+	margin: auto;
+}
+#team-wrapper .col-sm-3 h3,
+#team-wrapper .col-sm-3 p {
+	text-align: center;
+}
+#team-wrapper .description {
+	padding-bottom: 20px;
+}
+#team-wrapper .col-xs-4 img,
+#team-wrapper .col-xs-3 img {
+	display: block;
+	margin: auto;
+}
+/* Skills */
+#skills-wrapper {
+	background: white;
+	color: #3c4761;
+}
+#skills-wrapper h2 {
+	text-align: center;
+	padding-top: 110px;
+}
+#skills-wrapper hr {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.149;
+  width: 87px;
+  height: 4px;
+  z-index: 298;
+}
+#skills-wrapper p {
+	text-align: center;
+	font-size: 18px;
+	padding-bottom: 75px;
+}
+#skills-wrapper .col-sm-3 img {
+	display: block;
+	margin: auto;
+}
+#skills-wrapper .col-sm-3 h3 {
+	text-align: center;
+}
+#skills-wrapper .row {
+	padding-bottom: 110px;
 }
