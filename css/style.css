@@ -244,6 +244,8 @@ p {
 }
 #portfolio-wrapper .col-sm-6 img {
 	padding-top: 50px;
+	display: block;
+	margin: auto;
 }
 #portfolio-wrapper .col-sm-6 p {
 	padding-top: 20px;
