@@ -267,3 +267,100 @@ p {
 	background-color: #16b79b;
 	box-shadow: inset 0px -5px 0px #14a58c;
 }
+/* Clients Section */
+#clients-wrapper {
+	background: #d74680;
+	color: white;
+}
+#clients-wrapper h2 {
+	text-align: center;
+	padding-top: 100px;
+}
+#clients-wrapper hr + p {
+	text-align: center;
+	padding-bottom: 50px;
+}
+#clients-wrapper .col-xs-3 img {
+	border-radius: 100%;
+}
+#clients-wrapper .col-xs-9 p:first-child {
+	font-family: "Titillium Web Italic";
+	font-size: 21px;
+	margin-right: 100px;
+}
+#clients-wrapper .col-xs-9 h3 {
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+#clients-wrapper .col-xs-9 h3 + p {
+	padding-bottom: 120px;
+	color: #facd96;
+}
+/* Contacts Section */
+#contact-wrapper {
+	background: #3c5499;
+	color: white;
+}
+#contact-wrapper h2 {
+	padding-top: 105px;
+	text-align: center;
+}
+#contact-wrapper p {
+	padding-bottom: 60px;
+	text-align: center;
+}
+#contact-wrapper .col-sm-6 input {
+	width: 100%;
+	background: #273a71;
+	color: white;
+	border-radius: 10px;
+	padding: 20px;
+	border: 0px;
+	font-family: "Titillium Web Regular";
+	font-size: 18px;
+	margin-bottom: 25px;
+	height: 55px;
+}
+#contact-wrapper .col-sm-12 textarea {
+	width: 100%;
+	max-width: 100%;
+	background: #273a71;
+	color: white;
+	border-radius: 10px;
+	padding: 20px;
+	border: 0px;
+	font-family: "Titillium Web Regular";
+	font-size: 18px;
+	margin-bottom: 50px;
+	height: 200px;
+}
+#contact-wrapper form > input {
+	display: block;
+	margin: auto;
+	font-family: "Titillium Web SemiBold";
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 25px 80px;
+	background: #30bae7;
+	color: white;
+	margin-bottom: 105px;
+}
+#contact-wrapper form > input:hover {
+	background: #2eadd7;
+	box-shadow: inset 0px -5px 0px #299ec5;
+}
+/* Footer Section */
+#footer-wrapper {
+	background: #344b8e;
+	text-align: center;
+	border-top: 0.1px solid white;
+}
+#footer-wrapper a {
+	color: white;
+	font-family: "Titillium Web SemiBold";
+	font-size: 24px;
+	margin: 40px 15px;
+}
+#footer-wrapper a:hover {
+	color: #30bae7;
+}
