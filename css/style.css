@@ -199,7 +199,7 @@ p {
 }
 #skills-wrapper h2 {
 	text-align: center;
-	padding-top: 110px;
+	padding-top: 100px;
 }
 #skills-wrapper p {
 	text-align: center;
@@ -211,10 +211,9 @@ p {
 }
 #skills-wrapper .col-sm-3 h3 {
 	text-align: center;
-}
-#skills-wrapper .row {
 	padding-bottom: 110px;
 }
+
 /* Portfolio Section */
 #portfolio-wrapper {
 	background: #ffdd99;
@@ -224,7 +223,7 @@ p {
 	text-align: center;
 	padding-top: 100px;
 }
-#portfolio-wrapper p {
+#portfolio-wrapper hr + p {
 	padding-bottom: 30px;
 	text-align: center;
 }
@@ -250,6 +249,7 @@ p {
 #portfolio-wrapper .col-sm-6 p {
 	padding-top: 20px;
 	text-transform: uppercase;
+	text-align: center;
 }
 #portfolio-wrapper .row + button {
 	padding: 20px 50px;
