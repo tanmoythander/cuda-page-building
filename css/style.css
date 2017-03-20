@@ -236,7 +236,7 @@ p {
 	font-size: 18px;
 	text-transform: uppercase;
 	background-color: #ebc985;
-	margin: 0px 3px;
+	margin: 4px 4px;
 }
 #portfolio-wrapper .portfolio-button button:hover {
 	background-color: white;
@@ -280,19 +280,19 @@ p {
 	text-align: center;
 	padding-bottom: 50px;
 }
-#clients-wrapper .col-xs-3 img {
+#clients-wrapper .col-sm-3 img {
 	border-radius: 100%;
 }
-#clients-wrapper .col-xs-9 p:first-child {
+#clients-wrapper .col-sm-9 p:first-child {
 	font-family: "Titillium Web Italic";
 	font-size: 21px;
 	margin-right: 100px;
 }
-#clients-wrapper .col-xs-9 h3 {
-	padding-top: 15px;
+#clients-wrapper .col-sm-9 h3 {
+	padding-top: 20px;
 	padding-bottom: 0px;
 }
-#clients-wrapper .col-xs-9 h3 + p {
+#clients-wrapper .col-sm-9 h3 + p {
 	padding-bottom: 120px;
 	color: #facd96;
 }
@@ -352,6 +352,7 @@ p {
 /* Footer Section */
 #footer-wrapper {
 	background: #344b8e;
+	color: white;
 	text-align: center;
 	border-top: 0.1px solid white;
 }
